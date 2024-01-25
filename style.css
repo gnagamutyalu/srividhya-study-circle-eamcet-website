@@ -1,0 +1,258 @@
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(49, 37, 37, 0.75),rgba(0,0,0,0.75)),url( https://media.istockphoto.com/id/1324413691/photo/beautiful-sky-with-white-clouds.jpg?s=612x612&w=0&k=20&c=40a8JIoRJ1BAI4XeyEouZl0QbVAJToDBRQn31S3FGzk=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    margin-left: 20px;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eamcet{
+ margin-left: 20px;
+}
+#first{
+    margin-left: 20px;
+}
+.left{
+ 
+    width: 100px;
+    height: 80px;
+
+} 
+.right{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+  padding-left: 50px;
+}
+.an{
+    padding: 10px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:10px;
+  color: white;
+  text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    }
+.an:hover{
+     text-decoration: underline;
+     transition: 0.5s linear;
+     text-decoration-color: rgb(212, 59, 12);
+}
+
+   
+    .home{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    justify-content: space-between;
+     height:85vh;
+     
+    
+    }
+    .home-left{
+        width:50vm;
+        text-align: right;
+        padding-right: 60px;
+    
+    }
+   .home-left img{
+        width:400px;
+        height:400px;
+    }
+    .home-right h1{
+      
+            font-family: 'Times New Roman' ;
+            font-size: 65px;
+            padding-left: 20px;
+            justify-content: center;
+            letter-spacing: 2px;
+            color: white;
+        }
+        h3{
+            color:rgb(221, 106, 29);
+            font-family:'Lucida Sans' ;
+        }
+        pre{
+            font-size: medium;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       flex-direction: row;
+        }
+        .home-right p span{
+font-size:50px;
+font-family: 'Courier New', Courier, monospace;
+        }
+    .home-right p{
+        font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    
+     .aa{
+        color:white;
+        text-decoration: none;
+        font-size: 1.3rem;
+     }
+     .aa:hover,.aa:focus{
+         color: rgb(255, 247, 0);
+     }
+     .state a{
+        font-size:1.3rem;
+        display: block;
+        padding: 15px 0;
+        margin: 0 20px;
+        color: rgba(248, 203, 6, 0.953);
+        
+     }
+    
+     .syllabus h1{
+      
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        letter-spacing: 2px;
+       
+    }
+      h2{
+
+        color:rgb(221, 106, 29);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+.contact{
+    text-align: center;
+    }
+    .contact-info{
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 20px;
+    }
+    
+   td{
+    font-size: 1.2rem;
+   }
+    p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .home-left img{
+        border-radius: 500px;
+    }
+    table tr td::selection{
+   color:black;
+   background-color: rgb(234, 250, 7);
+    }
+
+    table th{
+        font-size: 1.5rem;
+    }
+    table{
+        margin:10px 15px
+    }
+
+    .bototop a{
+        font-size: large;
+        color: white;
+        text-decoration-line: underline;
+    }
+
+    .maths p{
+    font-size: 1.2rem;
+    }
+
+    .maths p::selection{
+          color:black;
+          background-color: rgb(223, 243, 6);
+    }
+    .phy p,.che p,.zoology p,.botony p,.pattern p{
+   font-size: 1.2rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+     h2{
+        font-size: 2rem;
+    }
+    h2::selection{
+        color:black;
+        background-color: rgb(223, 243, 6);
+    }
+    .zoology table,.botony table{
+       margin-left: 20%;
+    }
+    .about ul li{
+        font-size: 1.3rem;
+        color: whitesmoke;
+    }
+    .about ul li::selection,.about p::selection{
+        color:black;
+        background-color: rgb(223, 243, 6);
+    }
+    .about p{
+        font-size: 1.3rem;
+    }
+    i{
+        font-size: 2rem;
+     
+    }
+    .insta{
+        color:white;
+       
+
+    }
+    .social-icons .first{
+        width:60px;
+        height:60px;
+        background-color: rgb(241, 16, 140);
+        text-decoration: none;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:0 20px;
+    }
+    .social-icons .second{
+        width:60px;
+        height:60px;
+        background-color:white;
+        text-decoration: none;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:0 20px;
+    }
+    .social-icons .third{
+        width:60px;
+        height:60px;
+        background-color:white;
+        text-decoration: none;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:0 20px;
+    }
+    .yt{
+        color:red
+    }
+    .play{
+        background:linear-gradient(to top,rgb(45, 128, 230),rgb(31, 80, 230));
+        -webkit-text-fill-color: transparent ;
+         background-clip: text;
+        
+    }
+    .social-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+ 
